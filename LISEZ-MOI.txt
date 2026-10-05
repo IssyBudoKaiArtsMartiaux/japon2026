@@ -1,0 +1,102 @@
+IBKAM - JAPON 2026 : SITE DU PROGRAMME
+======================================
+
+LE PROGRAMME EST PROTÉGÉ PAR UN CODE
+------------------------------------
+Le contenu de index.html est chiffré. Sans le code d'accès, la page n'affiche
+que le logo et le titre, y compris pour une personne qui consulterait les
+fichiers du dépôt.
+
+- Le code n'est écrit dans aucun fichier de ce dossier. Transmettez-le aux
+  participants par message privé, jamais dans infos.txt ni sur GitHub.
+- Chaque participant le saisit une fois par appareil. L'application installée
+  sur l'écran d'accueil peut le redemander une fois.
+- Attention : infos.txt n'est pas chiffré. N'y écrivez ni nom, ni numéro de
+  téléphone, ni adresse.
+- Pour changer de code, il faut régénérer index.html.
+
+
+CE QUE CONTIENT LE DOSSIER
+- index.html : le programme complet (logo, pictogrammes et polices inclus).
+- infos.txt  : les « Dernières infos » affichées en haut du programme.
+- sw.js, manifest.json et les trois images : ils rendent la page consultable
+  sans réseau et installable comme une application. Ne pas les modifier.
+
+Tous ces fichiers doivent rester ensemble, au même endroit.
+
+
+1. METTRE LE SITE EN LIGNE
+--------------------------
+
+Option A - GitHub Pages (permet d'ajouter une info depuis un téléphone)
+ 1. Créer un compte gratuit sur https://github.com
+ 2. Créer un dépôt public (« New repository », « Public »), par exemple « japon2026 ».
+ 3. Dans le dépôt : « Add file », puis « Upload files ». Glisser tous les fichiers
+    du dossier (les fichiers, pas le dossier lui-même), puis « Commit changes ».
+ 4. « Settings », puis « Pages » : choisir « Deploy from a branch », la branche
+    « main », le dossier « / (root) », puis « Save ».
+ 5. Une à deux minutes plus tard, le site répond à l'adresse
+    https://VOTRE-IDENTIFIANT.github.io/japon2026/
+
+Option B - Netlify Drop (le plus rapide à mettre en place, mises à jour depuis un ordinateur)
+ 1. Sur un ordinateur, ouvrir https://app.netlify.com/drop
+ 2. Glisser le dossier « site-ibkam-japon » dans la zone prévue.
+ 3. Créer un compte gratuit dans l'heure qui suit, sinon le site est supprimé.
+ 4. L'adresse obtenue (du type xxxx.netlify.app) est celle à donner au groupe.
+ Pour mettre à jour : dans Netlify, ouvrir le site, page « Deploys », et glisser
+ de nouveau le dossier complet.
+
+Les intitulés des menus de ces deux services peuvent avoir légèrement changé.
+
+
+2. AJOUTER UNE INFO DE DERNIÈRE MINUTE
+--------------------------------------
+Ouvrir infos.txt, écrire une information par ligne, enregistrer.
+Les lignes qui commencent par # ne s'affichent pas.
+
+Avec GitHub, cela se fait depuis un téléphone : ouvrir le dépôt sur github.com,
+toucher infos.txt, puis l'icône crayon, écrire la ligne, « Commit changes ».
+L'info apparaît chez les participants une à deux minutes plus tard, dès qu'ils
+ont du réseau.
+
+
+3. CORRIGER LE PROGRAMME LUI-MÊME
+---------------------------------
+ 1. Sur un ordinateur, double-cliquer sur index.html : il s'ouvre dans le
+    navigateur. Saisir le code d'accès.
+ 2. Cliquer sur « Modifier le programme », en haut de la page.
+ 3. Cliquer sur un texte pour le corriger ou le compléter.
+ 4. Cliquer sur « Enregistrer le fichier » : un nouveau index.html arrive dans
+    les téléchargements. Il reste protégé par le même code, et la date de
+    version, en haut de la page, est mise à jour.
+ 5. Remplacer l'ancien index.html par le nouveau, puis le remettre en ligne
+    (GitHub : « Add file », « Upload files » ; Netlify : glisser le dossier).
+
+Le bouton « Modifier le programme » n'apparaît pas chez les participants.
+Sur le site en ligne, il s'affiche en ajoutant #modifier à la fin de l'adresse.
+
+
+4. INSTALLATION SUR LE TÉLÉPHONE ET CONSULTATION SANS RÉSEAU
+-----------------------------------------------------------
+Chaque participant ouvre le lien une première fois avec du réseau. Il peut
+ensuite l'installer comme une application, avec l'icône IBKAM :
+- iPhone : dans Safari, bouton Partager, puis « Sur l'écran d'accueil » ;
+- Android : dans Chrome, menu à trois points, puis « Ajouter à l'écran
+  d'accueil » ou « Installer l'application ».
+
+La page s'ouvre alors même sans réseau et montre la dernière version chargée.
+Dès que le réseau revient, la version à jour est chargée automatiquement.
+
+Deux précautions :
+- ouvrir de nouveau la page ou l'application peu avant le départ, car certains
+  téléphones effacent cette copie après plusieurs jours sans visite ;
+- garder la copie PDF en secours.
+
+
+5. CONFIDENTIALITÉ
+------------------
+L'adresse du site et le dépôt GitHub sont publics, mais le programme n'y est
+lisible qu'avec le code. La protection vaut ce que vaut le code : choisissez-le
+difficile à deviner et ne le diffusez qu'aux participants.
+Restent visibles sans code : le logo, le titre, les dates, les villes, et le
+contenu de infos.txt.

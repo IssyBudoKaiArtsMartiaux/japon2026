@@ -1,0 +1,15 @@
+{
+  "name": "IBKAM Japon 2026",
+  "short_name": "Japon 2026",
+  "description": "Programme du voyage IBKAM au Japon, du 15 au 24 octobre 2026.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1E246C",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

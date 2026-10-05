@@ -1,0 +1,9 @@
+# IBKAM Japon 2026 - Dernières infos
+#
+# Ce fichier alimente l'encadré « Dernières infos » en haut du programme.
+# Écrivez une information par ligne, puis enregistrez.
+# Les lignes qui commencent par # ne sont pas affichées.
+# Tant qu'il n'y a aucune ligne sans #, l'encadré reste masqué.
+#
+# Exemple (retirez le # du début pour l'afficher) :
+# 20/10 - Judo : rendez-vous à 17h45 dans le hall de l'hôtel.
